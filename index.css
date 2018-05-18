@@ -123,18 +123,43 @@ width: 100%;
 	width:100%;
 }
 
+#navi_list ul .SearchBar{
+	float: right;
+	text-align: center;
+}
+
+#navi_list ul .SearchBar button {
+	float: right;
+	padding: 7px 10px;
+	margin-top: 0 px;
+	margin-right: 2px;
+	background: #ddd;
+	font-size: 11px;
+	border: none;
+	cursor: pointer;
+}
+
+#navi_list ul .SearchBar input[type=text]{
+	padding: 6.5px;
+	margin-top: 0px;
+	font-size: 12px;
+	border: none;
+}
+
 /*set navigation bar to horizontal view */
 #navi_list li{
 	float: left;
 	display: inline; 
 }
 
+
+
 /* settings for all the listed elements, sizing, shadow, block corners*/
 #navi_list li a{
 display: block;
 color: white;
 text-align: center;
-padding: 6px 8px;
+padding: 4px 6px;
 text-decoration: none;
 box-shadow: 1px 1px 1px 1px #800000;	
 border-radius:0px 0px 0px 0px;

@@ -40,6 +40,8 @@
 				$("#fimg1").attr("src", "images/KI10.jpg")
 			});
 			
+		$("searchbar").click
+			
 		//when hover, img swaps with bigger img (zzyy)
 		$("#11").hover(function() {
 				$("#fimg2").attr("src", "images/zzyy1.jpg");
