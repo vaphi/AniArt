@@ -1,0 +1,321 @@
+
+body {
+  color: black;
+  font: 12pt "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* body reference for adjusting body elements, auto adjust the size of the website*/
+#wrapper{
+width: 100%;
+height: 100%;
+display: table;
+position: absolute;
+top: 0;
+left: 0;
+margin: 0;
+padding: 0;
+
+}
+
+/* adjust the header background*/
+header {
+background-color: #2b2a2a;
+height: 140px;
+margin:auto;
+padding:0;
+width: auto;
+}
+
+/*text align for about section */
+#about {
+text-align: center;
+}
+/* change the color and text decoration of clickable links in about section*/
+#about a:link{
+	color:#3673bd;
+	text-decoration: none;
+}
+
+/* change background color of news section. adjusted width and height*/
+.news {
+background-color: #fffcef;
+height: auto;
+text-align:center;
+}
+
+/* change the color and text decoration of clickable links in news section*/
+.news a:link{
+	color:#3673bd;
+	text-decoration: none;
+}
+
+/* KI id img proportion adjusted and set to horizontal view*/
+#KI img{
+	width:auto;
+	height: auto;
+	max-height: 250px;
+	max-width: 250px; 
+	display: inline;
+	margin: 0 10px;
+}
+
+#KIgall img{
+	width:auto;
+	height: auto;
+	max-height: 125px;
+	max-width: 125px; 
+	display: inline;
+	margin: 0 2px;
+}
+
+/* zzyy id img proportion adjusted and set to horizontal view*/
+#zzyy img{
+	width:auto;
+	height: auto;
+	max-height: 250px;
+	max-width: 250px; 
+	display: inline;
+	margin: 0 10px;
+}
+
+/* Gallery img proportions */
+#zzyygall img{
+	width:auto;
+	height: auto;
+	max-height: 125px;
+	max-width: 125px; 
+	display: inline;
+	margin: 0 2px;
+}
+
+/* adjusted rec section to fit to website*/
+#rec {
+	background-color: #fffcef;
+}
+
+/*adjusted entire main section size and background color */
+main {
+background-color: #fffcef;
+overflow:hidden; 
+height:100%;
+width: 100%;
+
+}
+
+/* adjusted footers text color/ background color and the size*/
+footer {
+clear: both;
+text-align: center;
+background-color: #2b2a2a;
+color:white;
+width: 100%;
+}
+
+/*settings for entire navigation bar */
+#navi_list ul{
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1f1e1f;
+	position: fixed;
+	top:0;
+	width:100%;
+}
+
+/*set navigation bar to horizontal view */
+#navi_list li{
+	float: left;
+	display: inline; 
+}
+
+/* settings for all the listed elements, sizing, shadow, block corners*/
+#navi_list li a{
+display: block;
+color: white;
+text-align: center;
+padding: 6px 8px;
+text-decoration: none;
+box-shadow: 1px 1px 1px 1px #800000;	
+border-radius:0px 0px 0px 0px;
+
+}
+
+/* set the background color for the navigation bar when mouse hovers over it*/
+#navi_list li a:hover{
+	background-color: #f7e099;
+}
+
+/* settings for logo image positioning and sizing*/
+.logo img{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 250px;
+	height: 105px;
+}
+
+/* settings for headers text*/
+.logo p{
+	position: relative;
+	top:14px;
+	font-size: 50px:
+	color: #fffbe7;
+}
+
+/* Form tab drop down vertical */
+
+.dropdown li{
+	display: inline-block;
+}
+
+/* Form dropdown overall shape and color*/
+.dropdown-content{
+	display: none;
+    position: relative;
+    background-color: #1f1e1f;
+    box-shadow: 2px 1px 2px 3px #800000;
+    z-index: 1;
+	text-decoration: none;	
+}
+
+/*Form drop down color when hovered over */
+.dropdown-content a:hover {
+	background-color: #1f1e1f
+}
+
+/*How drop down for Form displays */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Link color and text decoration for Form page */
+.stuff a:link{
+	color:#3673bd;
+	text-decoration: none;
+}
+
+/*Align center for h2 */
+h2{
+text-align: center;
+}
+
+/*center hide buttons */
+#btn1, #btn2, .ss1, .ss2 {
+	display: block;
+	margin: auto;
+}
+
+/*Proportions of slideshow img */
+.slideshow img{
+	margin: auto;
+	height:600px;
+	width: 900px;
+}
+
+/*center slide btn */
+.slide-btn{
+	text-align: center;
+}
+
+/*remove underlink for hyperlinks */
+.galla, #moreforums a:link {
+	color:#3673bd;
+	text-decoration: none;
+}
+
+/*sets those ids margins and paddings */
+#babout, #rec, #fform, #fsub, #hgall, #tform{
+margin:0;
+padding:0;
+}
+
+/* sets the right column of page proportions for list of forums*/
+#cforum {
+float: right;
+padding: auto;
+margin: auto;
+background-color: #fffcef;
+height: auto;
+width:87%;
+text-align:center;
+height: auto;
+}
+
+/* sets the right column of page proportions for header to create forum*/
+#createF {
+float: right;
+padding: auto;
+margin: auto;
+background-color: #9eb1a3;
+height: auto;
+width:87%;
+text-align:center;
+height: auto;
+
+}
+
+/*sets proportions for left div ul list */
+#moreforums {
+width: 13%;
+box-sizing: border-box;
+float: left;
+background-color: #dbe3d5;
+border-right: 1px solid #a8baa7;
+padding: 7px 16px 0 16px;
+margin:auto;
+z-index: 99;
+height:100%;
+}
+
+/*sets style of left div text */
+.forumhead {
+font: bold 13px helvetica neue,arial,sans-serif;
+text-transform: uppercase;
+margin: 0 0 18px;
+display: block;
+}
+
+/*ul list styles for left div */
+#moreforums ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+/*ul list styles for right div*/
+#cforum ul{
+text-align: left;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+/*sets proportion for right div li list */
+.clforum {
+float: left;
+position: relative;
+width: 100%;
+text-decoration: none;
+font-size: 15px;
+display: block;
+padding: 7px 25px;
+border-radius: 2px;
+}
+
+/*change style of text of right li */
+.cforum p{
+text-indent: 25px;
+}
+
+/*box shadow with background for certain ids */
+#clf1, #clf3, #clf5, #clf7, #clf9{
+box-shadow: -2px 2px 2px #E5E4CA;
+background-color: #efeedc;
+}
+
+/*box shadow with background for certain ids */
+#clf2, #clf4, #clf6 ,#clf8 ,#clf10{
+box-shadow: -2px 2px 2px #E5E4CA;
+background-color: #dfdec6;
+}

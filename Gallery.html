@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>AniArt-Gallery</title>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css" />
+    <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+	<script src="gall.js"> </script>
+</head>
+<body id="wrapper">
+		<header>
+	
+	<!--header, have the logo and page name -->
+	<div class="logo">
+		<p id= "webtitle"> niArt</p> <img src= "images/logo.png" alt="logo" >
+	</div>
+	
+	<!--Navigation tabs for the website -->
+	<nav id="navi_list">
+	<ul>
+	<li><a href="index.html"> Home</a> </li> 
+	<!--Drop down for Form tab -->
+	<li class="dropdown">
+	<a href="Form.html" class="dropbtn">Form </a>
+	<div class="dropdown-content">
+ 
+		<a href="Signup.html"> Sign-up </a>
+		<a href="Newsletter.html"> Newsletter Sub </a>
+	</div>
+	</li>
+	
+	<li><a href="Gallery.html">	Gallery</a> </li>
+	<li><a href="Forum.html">	Forum</a> </li>
+	</ul>
+	
+	</nav>
+	</header>
+	
+	<main>
+	<h2 id=hgall>Gallery </h2>
+	<p class="galla">Gallery featuring <a href="a"> Kuvshinov Ilya</a> art works:</p>
+	<div id = "slide1">
+	<img id="fimg1" class ="ss1" width = "800" height = "480" src="images/KI1.jpg" alt="KI1" />
+	</div>
+	<br>
+	<div id="KIgall">
+		<img id ="01" src= "images/KI1.jpg" alt="KI1"> 
+		<img id ="02" src= "images/KI2.jpg" alt="KI2"> 
+	    <img id ="03" src= "images/KI3.jpg" alt="KI3"> 
+		<img id ="04" src= "images/KI4.jpg" alt="KI4"> 
+		<img id ="05" src= "images/KI5.jpg" alt="KI5"> 
+		<img id ="06" src= "images/KI6.jpg" alt="KI6"> 
+	    <img id ="07" src= "images/KI7.jpg" alt="KI7"> 
+		<img id ="08" src= "images/KI8.jpg" alt="KI8"> 
+		<img id ="09" src= "images/KI9.jpg" alt="KI9"> 
+		<img id ="10" src= "images/KI10.jpg" alt="KI10"> 	
+	</div>
+	<br>
+	<button id="btn1">Hide</button>
+	<br>
+	
+	<p class="galla">Gallery featuring <a href="a"> zzyyzzy</a> art works:</p>
+	<div id = "slide2">
+		<img id="fimg2" class ="ss2" width = "800" height = "600" src="images/zzyy1.jpg" alt="KI1" />
+	</div>
+
+	<div id="zzyygall">
+		<img id ="11" src= "images/zzyy1.jpg" alt="zzyy1"> 
+		<img id ="12" src= "images/zzyy2.jpg" alt="zzyy2"> 
+		<img id ="13" src= "images/zzyy3.jpg" alt="zzyy3"> 
+		<img id ="14" src= "images/zzyy4.jpg" alt="zzyy4"> 
+		<img id ="15" src= "images/zzyy5.jpg" alt="zzyy5"> 
+		<img id ="16" src= "images/zzyy6.jpg" alt="zzyy6"> 
+		<img id ="17" src= "images/zzyy7.jpg" alt="zzyy7"> 
+		<img id ="18" src= "images/zzyy8.jpg" alt="zzyy8"> 
+		<img id ="19" src= "images/zzyy9.jpg" alt="zzyy9"> 
+		<img id ="20" src= "images/zzyy10.jpg" alt="zzyy10"> 
+		</div>
+		<br>
+		<button id="btn2">Hide</button>
+		<br>
+	
+	<p class="galla">Gallery featuring <a href="a"> Wlop</a> art works:</p>
+	<div class="slideshow">
+    <img class="mySlides" src="images/wlop1.jpg" alt="boom1">
+    <img class="mySlides" src="images/wlop2.jpg" alt="boom2">
+    <img class="mySlides" src="images/wlop3.jpg" alt="boom3">
+	<img class="mySlides" src="images/wlop4.jpg" alt="boom4">
+    <img class="mySlides" src="images/wlop5.jpg" alt="boom5">
+    <img class="mySlides" src="images/wlop6.jpg" alt="boom6">
+	<img class="mySlides" src="images/wlop7.jpg" alt="boom7">
+    <img class="mySlides" src="images/wlop8.jpg" alt="boom8">
+    <img class="mySlides" src="images/wlop9.jpg" alt="boom9">
+	<img class="mySlides" src="images/wlop10.jpg" alt="boom10">
+    </div>
+	<br>
+	
+  <div class="slide-btn">
+    <button class="btn3" onclick="plusDivs(-1)"> Prev</button>
+    <button class="btn4" onclick="plusDivs(1)"> Next</button>
+  </div>
+	
+	</main>
+	<footer>
+	&copy;2017 AniArt. All rights reserved <br> 
+	<a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> 
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+	</footer>
+	
+</body>
+</html>
