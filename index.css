@@ -6,29 +6,29 @@ body {
 
 /* body reference for adjusting body elements, auto adjust the size of the website*/
 #wrapper{
-width: 100%;
-height: 100%;
-display: table;
-position: absolute;
-top: 0;
-left: 0;
-margin: 0;
-padding: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
 
 }
 
 /* adjust the header background*/
 header {
-background-color: #2b2a2a;
-height: 140px;
-margin:auto;
-padding:0;
-width: auto;
+	background-color: #2b2a2a;
+	height: 140px;
+	margin:auto;
+	padding:0;
+	width: auto;
 }
 
 /*text align for about section */
 #about {
-text-align: center;
+	text-align: center;
 }
 /* change the color and text decoration of clickable links in about section*/
 #about a:link{
@@ -38,9 +38,9 @@ text-align: center;
 
 /* change background color of news section. adjusted width and height*/
 .news {
-background-color: #fffcef;
-height: auto;
-text-align:center;
+	background-color: #fffcef;
+	height: auto;
+	text-align:center;
 }
 
 /* change the color and text decoration of clickable links in news section*/
@@ -95,20 +95,20 @@ text-align:center;
 
 /*adjusted entire main section size and background color */
 main {
-background-color: #fffcef;
-overflow:hidden; 
-height:100%;
-width: 100%;
+	background-color: #fffcef;
+	overflow:hidden; 
+	height:100%;
+	width: 100%;
 
 }
 
 /* adjusted footers text color/ background color and the size*/
 footer {
-clear: both;
-text-align: center;
-background-color: #2b2a2a;
-color:white;
-width: 100%;
+	clear: both;
+	text-align: center;
+	background-color: #2b2a2a;
+	color:white;
+	width: 100%;
 }
 
 /*settings for entire navigation bar */
@@ -123,11 +123,13 @@ width: 100%;
 	width:100%;
 }
 
+/* Search Bar placement*/
 #navi_list ul .SearchBar{
 	float: right;
 	text-align: center;
 }
 
+/*Search Bar properties */
 #navi_list ul .SearchBar button {
 	float: right;
 	padding: 7px 10px;
@@ -139,6 +141,7 @@ width: 100%;
 	cursor: pointer;
 }
 
+/* Search Bar INPUT properties*/
 #navi_list ul .SearchBar input[type=text]{
 	padding: 6.5px;
 	margin-top: 0px;
@@ -146,13 +149,16 @@ width: 100%;
 	border: none;
 }
 
+.autocomplete {
+	position; relative;
+	display: inline-block;	
+}
+
 /*set navigation bar to horizontal view */
 #navi_list li{
 	float: left;
 	display: inline; 
 }
-
-
 
 /* settings for all the listed elements, sizing, shadow, block corners*/
 #navi_list li a{
